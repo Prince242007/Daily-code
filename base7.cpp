@@ -16,7 +16,7 @@ string decimalToBase7(int num) {
         int rem = num % 7;
         result = char(rem + '0') + result;
         num /= 7;
-    }
+    }   
 
     if (isNegative) result = "-" + result;
     return result;
