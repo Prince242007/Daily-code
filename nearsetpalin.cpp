@@ -23,8 +23,6 @@ int Rev_num(string s) {
     for (int i = s.size() - 1; i >= 0; i--) {
         r = r * 10 + (s[i] - '0');  
     }
-
-    
     for (; r > 0; r /= 10) {
         r1 = r1 * 10 + (r % 10);
     }
@@ -32,16 +30,19 @@ int Rev_num(string s) {
     
     for (int i = r1, j = r1; i >= 0 || j < INT_MAX; i--, j++) {
         val1 = Is_palindrome(i);
-        val2 = Is_palindrome(j);
-        if (val1 && val2) {
-            if ((r1 - val1) <= (val2 - r1)) return val1;
-            else return val2;
-        }
-        if (val1) return val1;
-        if (val2) return val2;
-    }
+val2 = Is_palindrome(j);
 
-    return 0;
+if (val1 && val2) {
+    int d1 = abs(r1 - val1);
+    int d2 = abs(val2 - r1);
+    if (d1 < d2) return val1;
+    else if (d2 < d1) return val2;
+    else return (val1 < val2 ? val1 : val2);  // smaller one in tie
+}
+if (val1) return val1;
+if (val2) return val2;
+
+    }
 }
 
 int main(int argc, char const *argv[]) {
