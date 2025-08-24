@@ -44,7 +44,6 @@ if (val2) return val2;
 
     }
 }
-
 int main(int argc, char const *argv[]) {
     string s;
     cout << "Enter the string = ";
