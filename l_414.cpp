@@ -35,6 +35,5 @@ int main()
     vector<int> nums={1,2};
     // vector<int> nums={2,2,3,1};
     cout << s.thirdMax(nums);
-
     return 0;
 }
