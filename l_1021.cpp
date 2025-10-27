@@ -34,8 +34,8 @@ public:
 int main()
 {
     Solution s;
-    // string s1 = "(()())(())(()(()))";
-    string s1 = "()()(())";
+    string s1 = "(()())(())(()(()))";
+    // string s1 = "()()(())";
     
     cout << s.removeOuterParentheses(s1);
     return 0;
