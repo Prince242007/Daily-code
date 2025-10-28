@@ -4,12 +4,12 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     // string date = "2019-01-09";
-    string date = "2019-02-10";
+    string date = "2008-10-10";
     string part1 = date.substr(0, 4);
     int n1 = stoi(part1);
-    string part2 = date.substr(6, 8);
+    string part2 = date.substr(5, 2);
     int n2 = stoi(part2);
-    string part3 = date.substr(8, 10);
+    string part3 = date.substr(8, 2);
     int n3 = stoi(part3);
     // cout<<n3;
     int days = n3;
