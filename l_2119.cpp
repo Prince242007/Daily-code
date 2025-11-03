@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution
+{
+public:
+    bool isSameAfterReversals(int num)
+    {
+        if (num == 0)
+            return true;
+        if (num % 10 == 0)
+            return false;
+        return true;
+    }
+};
+int main()
+{
+    Solution s;
+    int num;
+    cout << "Enter the number :- ";
+    cin >> num;
+    cout << s.isSameAfterReversals(num);
+
+    return 0;
+}
