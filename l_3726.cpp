@@ -13,11 +13,10 @@ public:
         {
             if (s[i] != '0')
             {
-                answer = s[i] + answer;
+                answer += s[i] ;
             }
         }
         ans = stoll(answer);
-        ;
         return ans;
     }
 };
