@@ -44,6 +44,7 @@ int main()
     vector<string> words = {"bella", "label", "roller"};
     vector<string> ans = s.commonChars(words);
     cout<<"Here it is repeating element :- ";
+    cout<<"Here it is repeating element :- ";
     for (auto &x : ans)
     {
         cout << x << " ";
