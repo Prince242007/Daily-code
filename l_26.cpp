@@ -4,17 +4,18 @@ using namespace std;
 class Solution{
 public :
     int removeDuplicates(vector<int>& nums) {
-        int k =0,n=nums.size();
-        if (n == 0) return 0;
-        int count = 1; 
-        for (int i = 1; i < n; i++) {
-            if (nums[i] != nums[i - 1]) {
-                count++;
+        
+        int n = nums.size();
+        if(n==0 || n==1) return n;
+        int i=0,j=i+1;
+        while(j<n){
+            if(nums[j]!=nums[i]){
+                i++;
+                nums[i]=nums[j];
             }
+            j++;
         }
-        return count;
-        
-        
+        return i+1;
     }
 };
 int main(){
