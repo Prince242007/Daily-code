@@ -18,6 +18,4 @@ int main(){
     cin>>n;
     cout<<s.generateTheString(n);
     return 0;
-
 }
-
