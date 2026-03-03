@@ -8,16 +8,14 @@ public :
         {
             for (int j = i+1; j < prices.size(); j++)
             {
-                if(j>i && prices[j]<=prices[i])
+                if(prices[j]<=prices[i])
                 {
                     prices[i] = prices[i]-prices[j];
                     break;
                 }
             }
-            
         }
         return prices;
-        
     }
 };
 int main(){
