@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+class Solution{
+public:
+    int minCostToMoveChips(vector<int>& position) {
+        int even = 0, odd = 0;
+        for (int i = 0; i < position.size(); i++)
+        {
+            if(position[i]%2==0)
+            {
+                even++;
+            }
+            else
+            {
+                odd++;
+            }
+        }
+        
+
+        return min(even,odd);
+    }
+};
+
+int main(){
+    Solution s;
+    vector<int> position1 = {2,2,3, 2, 3};
+    cout << s.minCostToMoveChips(position1);
+    return 0;
+}
