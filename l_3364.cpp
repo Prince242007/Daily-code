@@ -7,7 +7,6 @@ public:
     int minimumSumSubarray(vector<int> &nums, int l, int r)
     {
         vector<int> temp;
-        bool flag = false;
         int sum = 0;
         int miny = INT_MAX;
         for (int i = 0; i < nums.size(); i++)
@@ -21,7 +20,6 @@ public:
                 if (sum > 0 && len >= l && len <= r)
                 {
                     miny = min(miny, sum);
-                    flag = true;
                 }
             }
         }
