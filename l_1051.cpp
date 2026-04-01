@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Solution{
+public :
+    int heightChecker(vector<int>& heights) {
+        int count=0;
+        vector<int> temp=heights;
+        sort(heights.begin(),heights.end());
+        for(int i=0;i<heights.size();i++)
+        {
+            if(temp[i]!=heights[i])
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+};
+int main(){
+    Solution s;
+    vector<int> heights = {1,1,4,2,1,3};
+    cout<<s.heightChecker(heights);
+
+    return 0;
+}
