@@ -28,7 +28,8 @@ public :
 int main(){
     Solution s;
     int n;
-    cout<<"enter the number  :- ";
+    cout<<"Enter the number  :- ";
+    
     cin>>n;
     vector<int> ans=s.getNoZeroIntegers(n);
     for (int i = 0; i < ans.size(); i++)
