@@ -18,7 +18,8 @@ public :
 int main(){
     Solution s;
     int a ,b;
-    cout<<"Enter the value of a and b :- ";
+    cout<<"Enter the value of a:- ";
+    cout<<"Enter the value of b:- ";
     cin>>a>>b;
     cout<<s.commonFactors(a,b);
     return 0;
