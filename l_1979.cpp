@@ -17,12 +17,14 @@ public:
             }
         }
         return maxy;
+
+        
     }
 };
 int main()
 {
     Solution s;
-    vector<int> nums = {7,5,6,8,3};
+    vector<int> nums = {3,3,3,33};
     cout << s.findGCD(nums);
     return 0;
 }
