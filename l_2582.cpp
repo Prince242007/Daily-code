@@ -6,7 +6,7 @@ public:
     int passThePillow(int n, int time) {
 
         int cycle = n - 1;
-
+        
         if ((time / cycle) % 2 == 0) {
             return (time % cycle) + 1;
         }
