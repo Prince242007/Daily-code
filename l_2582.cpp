@@ -19,9 +19,7 @@ public:
 int main() {
 
     Solution s;
-
     int n, time;
-
     cout << "Enter n and time : ";
     cin >> n >> time;
 
