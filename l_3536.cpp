@@ -15,10 +15,9 @@ public:
             } else if (digit > second) {
                 second = digit;
             }
-
-            n /= 10;
+            n = n/ 10 ;
+            
         }
-
         return first * second;
     }
 };
