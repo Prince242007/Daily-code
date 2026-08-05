@@ -12,20 +12,12 @@ public:
     {
         vector<vector<int>> ans;
         int maxy = matrix[0][0];
-        int a = -1, b = -1;
         for (int i = 0; i < matrix[0].size(); i++)
         {
-            a = -1;
-            b = -1;
             maxy = matrix[0][i];
             for (int j = 0; j < matrix.size(); j++)
             {
                 maxy = max(maxy, matrix[j][i]);
-                if (matrix[j][i] == -1)
-                {
-                    a = i;
-                    b = j;
-                }
             }
             for (int r = 0; r < matrix.size(); r++)
             {
