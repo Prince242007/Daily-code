@@ -34,7 +34,7 @@ public:
 int main()
 {
     Solution s;
-    vector<vector<int>> grid={{1,3},{2,2}};
+    vector<vector<int>> grid={{9,1,7},{8,9,2},{3,4,6}};
     vector<int> ans = s.findMissingAndRepeatedValues(grid);
     for (int i = 0; i < grid.size(); i++)
     {
