@@ -22,7 +22,6 @@ public:
         {
             sum++;
         }
-
         return sum;
     }
 };
