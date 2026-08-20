@@ -39,7 +39,7 @@ public:
 int main()
 {
     Solution s;
-    vector<int> nums = {3, 9, 2, 1, 7};
+    vector<int> nums = {3,9,7,2,1,7};
     int k;
     cout << "Enter the number :- ";
     cin >> k;
