@@ -53,14 +53,13 @@ public:
                 ans++;
             }
         }
-
         return ans;
     }
 };
 int main()
 {
     Solution s;
-    vector<int> nums = {18, 43, 34, 16};
+    vector<int> nums = {22,14,33,7};
     cout << s.minSwaps(nums);
     return 0;
 }
