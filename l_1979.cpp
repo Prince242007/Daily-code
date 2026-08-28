@@ -16,9 +16,7 @@ public:
                 maxy = max(maxy, i);
             }
         }
-        return maxy;
-
-        
+        return maxy;        
     }
 };
 int main()
