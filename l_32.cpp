@@ -37,10 +37,10 @@ public:
 int main()
 {
     Solution s;
-    string s1;
+    string s2;
     cout << "Enetr the string :- ";
-    cin >> s1;
-    cout << s.longestValidParentheses(s1);
+    cin >> s2;
+    cout << s.longestValidParentheses(s2);
 
     return 0;
 }
