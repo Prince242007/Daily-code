@@ -15,7 +15,7 @@ public:
             int j = 0;
 
             while (pow(x, i) + pow(y, j) <= bound)
-            {
+            {   
                 int sum = pow(x, i) + pow(y, j);
 
                 // avoid duplicates manually
