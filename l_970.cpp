@@ -38,14 +38,14 @@ public:
 int main()
 {
     Solution s;
-    int x, y, bound;
+    int x1, y, bound;
     cout << "Enter the value of x:- ";
-    cin >> x;
+    cin >> x1;
     cout << "Enter the value of y:- ";
     cin >> y;
     cout << "Enter the value of bound:- ";
     cin >> bound;
-    vector<int> ans1 = s.powerfulIntegers(x, y, bound);
+    vector<int> ans1 = s.powerfulIntegers(x1, y, bound);
     for (int i = 0; i < ans1.size(); i++)
     {
         cout << ans1[i] << " ";
