@@ -35,8 +35,8 @@ public:
 int main()
 {
     Solution s;
-    vector<int> num={2,10,7,5,4,1,8,6};
-    cout<<s.minimumDeletions(num);
+    vector<int> nums={2,10,7,5,4,1,8,6};
+    cout<<s.minimumDeletions(nums);
 
     return 0;
 }
