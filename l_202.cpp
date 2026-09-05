@@ -22,9 +22,9 @@ public :
 };
 int main(){
     Solution s;
-    int n;
+    int n1;
     cout<<"Enter the number:- ";
-    cin>>n;
-    cout<<s.isHappy(n); 
+    cin>>n1;
+    cout<<s.isHappy(n1); 
     return 0;
 }
