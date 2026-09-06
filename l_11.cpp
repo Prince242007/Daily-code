@@ -21,8 +21,8 @@ public:
 int main()
 {
     Solution s;
-    vector<int> height = {1,8,6,2,5,4,8,3,7};
-    cout << s.maxArea(height);
+    vector<int> heights = {1,8,6,2,5,4,8,3,7};
+    cout << s.maxArea(heights);
 
     return 0;
 }
