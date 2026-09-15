@@ -14,12 +14,12 @@ public:
 
 int main(){
     Solution s;
-    int n;
+    int n1;
 
     cout << "Enter the n :- ";
-    cin >> n;
+    cin >> n1;
 
-    cout << boolalpha << s.canWinNim(n);
+    cout << boolalpha << s.canWinNim(n1);
 
     return 0;
 }
