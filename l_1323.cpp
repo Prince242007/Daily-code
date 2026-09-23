@@ -12,8 +12,6 @@ public:
         {
             if(s[i]=='6')
             {
-                
-                
                 s[i]='9';
                 break;
             }
@@ -25,10 +23,10 @@ public:
 int main()
 {
     Solution s;
-    int n;
+    int n1;
     cout << "Enter the number :- ";
-    cin >> n;
-    cout << s.maximum69Number(n);
+    cin >> n1;
+    cout << s.maximum69Number(n1);
 
     return 0;
 }
