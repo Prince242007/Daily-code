@@ -3,13 +3,13 @@ using namespace std;
 
 class Solution{
 public :
-    bool checkRecord(string s) {
+    bool checkRecord(string str) {
         int absent=0 , late=0;
-        for (int i = 0; i < s.length(); i++)
+        for (int i = 0; i < str.length(); i++)
         {
             if(late==3) return false;
-            if(s[i]=='A') absent++;
-            if(s[i]=='L') late++;
+            if(str[i]=='A') absent++;
+            if(str[i]=='L') late++;
             else
             {
                 late=0;
@@ -24,9 +24,9 @@ public :
 };
 int main(){
     Solution s1;
-    string s ;
-    cout<<"Ener the string s :- ";
-    cin>>s;
-    cout<<s1.checkRecord(s);
+    string str ;
+    cout<<"Ener the string str :- ";
+    cin>>str;
+    cout<<s1.checkRecord(str);
     return 0;
 }
