@@ -11,7 +11,6 @@ public :
             {
             
                 ans += (1 << c);
-                c--;
                 i++;
             }
             else if(str[i]=='(')
