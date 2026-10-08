@@ -5,7 +5,7 @@ class Solution{
 public :
     bool lemonadeChange(vector<int>& bills) {
         int fd=0,td=0;
-
+        
         for(int i : bills){
             if(i == 5) {
                 fd++;
@@ -33,7 +33,7 @@ public :
 };
 int main(){
     Solution s;
-    vector<int> bills={};
+    vector<int> bills={5,5,5,10,20,20};
     cout<<s.lemonadeChange(bills);
     return 0;
 }
