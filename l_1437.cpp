@@ -25,9 +25,9 @@ public:
 int main(){
     Solution s;
     vector<int> nums={1,0,0,0,1,0,0,1};
-    int k;
+    int k1;
     cout<<"Enter the k value :- ";
-    cin>>k;
-    cout<<s.kLengthApart(nums,k);
+    cin>>k1;
+    cout<<s.kLengthApart(nums,k1);
     return 0;
 }
