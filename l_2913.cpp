@@ -13,9 +13,7 @@ public:
                 int len = st.size();
                 ans += len*len;
             }
-
         }
-
         return ans;
     }
 };
@@ -23,6 +21,5 @@ int main(){
     Solution s;
     vector<int> nums={1,2,1};
     cout<<s.sumCounts(nums);
-    
     return 0;
 }
