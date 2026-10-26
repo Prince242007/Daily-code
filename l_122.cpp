@@ -27,7 +27,7 @@ public:
 };
 int main(){
     Solution s;
-    vector<int> prices ={7,1,5,3,6,4};
+    vector<int> prices ={5,4,3,2,1};
     cout<<s.maxProfit(prices);
 
 
