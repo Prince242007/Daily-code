@@ -18,10 +18,10 @@ public :
 };
 int main(){
     Solution s;
-    int n;
+    int n1;
     cout<<"Enter the number :- ";
-    cin>>n;
-    cout<<s.numSquares(n);
+    cin>>n1;
+    cout<<s.numSquares(n1);
     
     return 0;
 }
