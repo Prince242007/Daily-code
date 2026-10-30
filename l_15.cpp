@@ -42,8 +42,8 @@ public:
 int main()
 {
     Solution s;
-    vector<int> nums = {-1,0,1,2,-1,-4};
-    vector<vector<int>> ans = s.threeSum(nums);
+    vector<int> num = {-1,0,1,2,-1,-4};
+    vector<vector<int>> ans = s.threeSum(num);
 
     for (int i = 0; i < ans[0].size(); i++)
     {
