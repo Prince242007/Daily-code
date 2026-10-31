@@ -23,7 +23,7 @@ int main()
 {
     Solution s;
     vector<int> nums = {2, 7, 11, 15};
-    int target = 9;
+    int target = 13;
     vector<int> answer = s.twoSum(nums, target);
     for (int i = 0; i < answer.size(); i++)
     {
