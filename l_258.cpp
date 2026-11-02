@@ -17,9 +17,9 @@ public :
 };
 int main(){
     Solution s;
-    int n;
+    int n1;
     cout<<"Enter the number :- ";
-    cin>>n;
-    cout<<s.addDigits(n);
+    cin>>n1;
+    cout<<s.addDigits(n1);
     return 0;
 }
