@@ -25,10 +25,10 @@ public:
 };
 int main(){
     Solution s;
-    vector<int> arr1={4,5,8}, arr2={10,9,1,8};
+    vector<int> arr11={4,5,8}, arr22={10,9,1,8};
     int d;
     cout<<"Enter the value of distance :- ";
     cin>>d;
-    cout<<s.findTheDistanceValue(arr1,arr2,d);
+    cout<<s.findTheDistanceValue(arr11,arr22,d);
     return 0;
 }
