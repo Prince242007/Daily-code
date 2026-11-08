@@ -17,9 +17,9 @@ public:
 
 int main(){
     Solution s;
-    int n ;
-    cin>>n;
-    cout<<s.integerBreak(n);
+    int n1 ;
+    cin>>n1;
+    cout<<s.integerBreak(n1);
 
 
     return 0;
